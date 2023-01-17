@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "npm i -g npm@latest && next build && next export",
     "start": "next start",
     "export": "next export",
     "lint": "next lint"
